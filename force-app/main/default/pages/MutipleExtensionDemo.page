@@ -1,0 +1,5 @@
+<apex:page standardController="Account" extensions="ExtensionDemo1,ExtensionDemo2">
+<!-- Begin Default Content REMOVE THIS -->
+<apex:outputText value="{!foo}"/>
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

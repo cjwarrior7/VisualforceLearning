@@ -1,0 +1,5 @@
+<apex:page>
+    <apex:stylesheet value="{!$Resource.democss}"/>
+<h1>This is custom vf page</h1>
+<p>I am newbie in the salesforce</p>
+</apex:page>

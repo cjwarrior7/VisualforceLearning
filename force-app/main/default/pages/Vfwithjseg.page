@@ -1,0 +1,14 @@
+<apex:page>
+<apex:includeScript value="{!$Resource.demojs}"/>
+<apex:outputPanel layout="block">
+    <label for="checkb">Click this box to change text font:</label>
+    <input id="checkb" type="checkbox"
+        onclick="changeFont(this,'{!$Component.thePanel}');"/>
+</apex:outputPanel>
+
+<!-- This outputPanel is the target, and contains 
+        text that will be changed. -->
+<apex:outputPanel id="thePanel" layout="block" >
+    Cj is learning sfdx!
+</apex:outputPanel>
+</apex:page>

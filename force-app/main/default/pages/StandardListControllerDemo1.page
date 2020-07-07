@@ -1,0 +1,7 @@
+<apex:page standardController="Opportunity" recordSetVar="opps">
+<!-- Begin Default Content REMOVE THIS -->
+<apex:pageBlock>
+    </apex:pageBlockTable>
+</apex:pageBlock>
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

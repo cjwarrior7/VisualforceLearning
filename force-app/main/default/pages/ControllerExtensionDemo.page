@@ -1,0 +1,9 @@
+<apex:page standardController="Account" extensions="MyExtensionDemo">
+<!-- Begin Default Content REMOVE THIS -->
+<apex:form>
+    {!greeting}
+    <apex:inputField value="{!account.name}"/>
+    <apex:commandButton value="Save"/>
+</apex:form>
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

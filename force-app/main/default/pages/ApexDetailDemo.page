@@ -1,0 +1,5 @@
+<apex:page standardController="Account">
+<!--<apex:detail /> --> <!--On the basis of id it is able to show Complete page whole information using this detail tag-->
+<!--<apex:relatedList list="contacts"/> --><!--On the basis of id it is able to show whole information of contacts under Accounts using this realtedList tag-->
+<apex:detail relatedList="false"/> <!-- if you don't want to show the related list> -->
+</apex:page>

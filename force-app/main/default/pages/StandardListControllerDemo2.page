@@ -1,0 +1,10 @@
+<apex:page standardController="Account" recordSetVar="accts">
+<!-- Begin Default Content REMOVE THIS -->
+<apex:form>
+    <apex:selectList value="{!filterid}" size="1"><!-- filterid present inside the standard controller  -->
+        <apex:selectOptions value="{!listviewoptions}"></apex:selectOptions><!-- listviewoptions present inside the standard controller  -->
+    </apex:selectList>
+    <apex:commandButton value="GO !" action="{!list}"/><!-- list is present inside the standard controller it will list the records based on filter criteria  -->
+</apex:form>
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

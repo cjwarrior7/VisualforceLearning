@@ -1,0 +1,21 @@
+<apex:page standardController="Account" recordSetVar="accts">
+<!-- Begin Default Content REMOVE THIS -->
+<!-- Achieving Pagination in visualforce -->
+<apex:pageBlock title="Viewing Accounts">
+<apex:form>
+<apex:pageBlockSection>
+    <apex:dataList value="{!accts}" var="a">
+        {!a.name}
+    </apex:dataList>
+</apex:pageBlockSection>
+<apex:panelGrid columns="4">
+<apex:commandLink action="{!previous}">Prev |</apex:commandLink>
+<apex:commandLink action="{!next}">Next |</apex:commandLink>
+<apex:commandLink action="{!first}">First |</apex:commandLink>
+<apex:commandLink action="{!last}">Last</apex:commandLink>
+</apex:panelGrid>
+</apex:form>
+</apex:pageBlock>
+
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

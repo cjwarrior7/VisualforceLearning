@@ -1,0 +1,14 @@
+<apex:page controller="AccountCustomController">
+<!-- Begin Default Content REMOVE THIS -->
+<apex:form>
+<apex:pageBlock title="Custom Controller $">
+
+
+<apex:inputField value="{!account.name}" />
+
+<apex:commandButton value="Save records" action="{!saveAccount}" />
+
+</apex:pageBlock>
+</apex:form>
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

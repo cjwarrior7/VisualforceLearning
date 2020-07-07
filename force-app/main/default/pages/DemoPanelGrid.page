@@ -1,0 +1,16 @@
+<apex:page >
+    <apex:panelGrid columns="3" id="thegrid" border="1">
+        <apex:outputText value="first"></apex:outputText>
+        <apex:outputText value="second"></apex:outputText>    
+        <apex:outputText value="third"></apex:outputText>
+        <apex:panelGroup ><!--All the element appear inside the same cell with the help of Panel Group -->
+            <apex:outputText value="four"></apex:outputText>
+            <apex:outputText value="five"></apex:outputText>
+            <apex:outputText value="six"></apex:outputText>
+        </apex:panelGroup>
+        <apex:outputText value="seven"></apex:outputText>
+        <apex:outputText value="eight"></apex:outputText>
+        <apex:outputText value="nine"></apex:outputText>
+        
+    </apex:panelGrid>
+</apex:page>

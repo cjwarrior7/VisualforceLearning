@@ -1,0 +1,4 @@
+<apex:page renderAs="pdf"><!--to show the page as pdf-->
+    <center><h1>Welcome to the Salesforce pdf</h1></center>
+
+</apex:page>

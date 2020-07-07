@@ -1,0 +1,12 @@
+<apex:page controller="CustomListController">
+<!-- Begin Default Content REMOVE THIS -->
+<apex:pageBlock>
+<apex:pageBlockTable value="{!Opportunities}" var="opp">
+    <apex:column value="{!opp.Name}"/>
+    <apex:column value="{!opp.CloseDate}"/>
+    <apex:column value="{!opp.Amount}"/>
+</apex:pageBlockTable>
+</apex:pageBlock>
+
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

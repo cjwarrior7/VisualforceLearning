@@ -1,0 +1,13 @@
+<apex:page sidebar="false" showHeader="false">
+<h1> hi {!$User.Lastname} Welcome {!$User.firstname} to Salesforce {!$User.username}</h1>
+<p>Date:{! Today()}</p>
+<p>Next Date:{! Today()+7}</p>
+<p>Tommorow:{! Day(Today()+1)}</p>
+<p>YEAR:{!YEAR(Today())}</p>
+<p>Maximum:{!Max(11,21,51,101)}</p>
+<p>Minimum:{!Min(11,21,51,101)}</p>
+<p>square root of 49 is:{!Sqrt(49)}</p>
+<p>Is it true ??:{! Contains('Salesforce.com','force')}</p>
+<p>If  ??:{! if(Contains('Salesforce.com','ore'),'yes true' ,'false')}</p>
+<p>If  ??:{! if(Day(Today())>5,'date is greater than 5' ,'date is less')}</p>
+</apex:page>
